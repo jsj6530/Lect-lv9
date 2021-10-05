@@ -2,9 +2,9 @@ package controller;
 
 public class FileManager {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+static FileManager instance = new FileManager();
+	
+	String fileName = "ATM.txt";
+	String data = "";
 
 }

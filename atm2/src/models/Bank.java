@@ -2,9 +2,11 @@ package models;
 
 public class Bank {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	static Bank instance = new Bank();
+	
+	String name = "";
+	int log = -1;
+	
 }
+
+

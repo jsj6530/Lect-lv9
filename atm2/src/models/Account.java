@@ -1,10 +1,9 @@
 package models;
 
 public class Account {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int number = 0;	//계좌번호
+		int money = 0; 	//계좌잔액
 	}
+	
 
-}
+
