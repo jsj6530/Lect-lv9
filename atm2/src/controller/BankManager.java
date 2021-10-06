@@ -34,4 +34,16 @@ public class BankManager {
 			}
 		}
 	}
+	void login() {
+		bank.log = UserManager.instance.logUser();
+		if(bank.log != -1) {
+			loginMenu();
+		}else {
+			System.out.println("[메세지]아이디와 패스워드를 확인해주세요.");
+		}
+	}
+	
+	void join() {
+		UserManager.instance.joinMember();
+	}
 }
