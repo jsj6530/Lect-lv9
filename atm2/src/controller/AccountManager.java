@@ -3,8 +3,8 @@ package controller;
 import java.util.Random;
 import java.util.Scanner;
 
+import Lv8test.User;
 import Lv8test.UserManager;
-import models.Account;
 
 public class AccountManager {
 
@@ -27,7 +27,13 @@ public class AccountManager {
 		int account = 0;
 		while(result) {
 			account = rn.nextInt(90000) + 10000;
-	
-	
+		}
+	}
 
+	//계좌조회
+		void printAcc(int log) {
+			User temp = UserManager.instance.user[log];
+			System.out.println("ID : " + temp.id);
+			System.out.println("PW : " + temp.pw);
+			for(int i=0;i<)
 
