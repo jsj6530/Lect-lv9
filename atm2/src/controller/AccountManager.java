@@ -27,14 +27,7 @@ public class AccountManager {
 		int account = 0;
 		while(result) {
 			account = rn.nextInt(90000) + 10000;
-			result = UserManager.instance.getCheckAcc(account);
-		}
-		UserManager.instance.user[log].acc[cnt].number = account;
-		UserManager.instance.user[log].accCnt += 1;
-	}
-		}
-		
-	}
+	
 	
 
 
