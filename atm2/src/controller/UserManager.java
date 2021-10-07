@@ -32,3 +32,14 @@ public class UserManager {
 
 		}
 }
+	void printAllUser() {}
+	
+	int logUser() {
+		int log = -1;
+		
+		System.out.print("[로그인]아이디를 입력하세요 : ");
+		String id = sc.next();
+		System.out.print("[로그인]패스워드를 입력하세요 : ");
+		String pw = sc.next();
+		for(int i=0;i<)
+	}
